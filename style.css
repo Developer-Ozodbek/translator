@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+body{
+    display: flex;justify-content: center;align-items: center;
+    min-height: 100vh;
+    background: #05abff;
+}
+.container{
+    width: 690px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px ;
+}
+.wrapper{
+    border-radius: 5px;
+    border: 2px solid #bbb;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+.text-input .to-text{
+    border-left: 1px solid #bbb;
+    border-radius: 0;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    border-radius: 5px;
+    resize: none;
+}
+.controls, li, .icons, .icons i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.controls{
+    padding: 12px 15px;
+}
+.controls .row.from .icons{
+    border-right: 1px solid #bbb;
+    padding-right: 15px;
+}
+.controls .row.to .icons{
+    border-left: 1px solid #bbb;
+    padding-left: 15px;
+}
+.controls .icons{
+    position: relative;
+    width: 38%;
+}
+.controls .icons i, .exchange{
+    cursor: pointer;
+    font-size: 18px;
+    color: #9f9f9f;
+}
+.controls .icons i{
+    width: 50px;
+    justify-content: center;
+}
+.controls .row select{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    background: #2066fe;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
